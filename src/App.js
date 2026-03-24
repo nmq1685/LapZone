@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 
 import { AuthProvider } from './context/AuthContext';
@@ -29,6 +29,12 @@ import AdminReviews from './pages/admin/AdminReviews';
 import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  return null;
+};
+
 const MainLayout = ({ children }) => (
   <div className="site-wrapper">
     <Header />
@@ -42,6 +48,7 @@ function App() {
     <BrowserRouter>
       <AuthProvider>
         <CartProvider>
+          <ScrollToTop />
           <Routes>
             {/* Public routes with header/footer */}
             <Route path="/" element={<MainLayout><Home /></MainLayout>} />

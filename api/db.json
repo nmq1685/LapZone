@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Admin LaptopZone",
       "email": "admin@laptopzone.vn",
       "password": "admin123",
@@ -11,7 +11,7 @@
       "avatar": ""
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Nguyễn Văn An",
       "email": "user@laptopzone.vn",
       "password": "user123",
@@ -21,7 +21,7 @@
       "avatar": ""
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Trần Thị Bình",
       "email": "binh@example.com",
       "password": "binh123",
@@ -33,35 +33,35 @@
   ],
   "categories": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Gaming",
       "slug": "gaming",
       "description": "Laptop gaming hiệu năng cao, trang bị GPU rời mạnh mẽ cho trải nghiệm chơi game tuyệt đỉnh",
       "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&q=80"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Văn phòng",
       "slug": "van-phong",
       "description": "Laptop văn phòng chuyên nghiệp, bàn phím tốt, pin trâu, phù hợp làm việc hàng ngày",
       "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&q=80"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Siêu mỏng",
       "slug": "sieu-mong",
       "description": "Laptop siêu mỏng nhẹ, thiết kế sang trọng, di chuyển dễ dàng",
       "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Sinh viên",
       "slug": "sinh-vien",
       "description": "Laptop giá tốt, cấu hình ổn định dành cho sinh viên học tập",
       "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&q=80"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Đồ họa",
       "slug": "do-hoa",
       "description": "Laptop workstation với màn hình chất lượng cao và GPU mạnh cho đồ họa, dựng phim",
@@ -70,7 +70,7 @@
   ],
   "products": [
     {
-      "id": "1",
+      "id": 1,
       "name": "ASUS ROG Strix G15 2024",
       "brand": "ASUS",
       "categoryId": 1,
@@ -103,7 +103,7 @@
       "createdAt": "2024-01-15T07:00:00.000Z"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "MSI Raider GE78 HX",
       "brand": "MSI",
       "categoryId": 1,
@@ -136,7 +136,7 @@
       "createdAt": "2024-02-10T07:00:00.000Z"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Lenovo Legion 5 Pro Gen 9",
       "brand": "Lenovo",
       "categoryId": 1,
@@ -168,7 +168,7 @@
       "createdAt": "2024-01-20T07:00:00.000Z"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "HP Omen 16 2024",
       "brand": "HP",
       "categoryId": 1,
@@ -198,7 +198,7 @@
       "createdAt": "2024-03-01T07:00:00.000Z"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Lenovo ThinkPad X1 Carbon Gen 12",
       "brand": "Lenovo",
       "categoryId": 2,
@@ -230,7 +230,7 @@
       "createdAt": "2024-02-01T07:00:00.000Z"
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "HP EliteBook 840 G11",
       "brand": "HP",
       "categoryId": 2,
@@ -260,7 +260,7 @@
       "createdAt": "2024-03-10T07:00:00.000Z"
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Dell XPS 15 9530",
       "brand": "Dell",
       "categoryId": 3,
@@ -293,7 +293,7 @@
       "createdAt": "2024-01-25T07:00:00.000Z"
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "Apple MacBook Air M3 15\"",
       "brand": "Apple",
       "categoryId": 3,
@@ -326,7 +326,7 @@
       "createdAt": "2024-02-20T07:00:00.000Z"
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "LG Gram 16 2024",
       "brand": "LG",
       "categoryId": 3,
@@ -358,7 +358,7 @@
       "createdAt": "2024-03-05T07:00:00.000Z"
     },
     {
-      "id": "10",
+      "id": 10,
       "name": "Acer Aspire 5 A515-58M",
       "brand": "Acer",
       "categoryId": 4,
@@ -391,7 +391,7 @@
       "createdAt": "2024-01-10T07:00:00.000Z"
     },
     {
-      "id": "11",
+      "id": 11,
       "name": "ASUS VivoBook 15 X1504",
       "brand": "ASUS",
       "categoryId": 4,
@@ -423,7 +423,7 @@
       "createdAt": "2024-01-05T07:00:00.000Z"
     },
     {
-      "id": "12",
+      "id": 12,
       "name": "Dell Inspiron 15 3535",
       "brand": "Dell",
       "categoryId": 4,
@@ -453,7 +453,7 @@
       "createdAt": "2024-02-15T07:00:00.000Z"
     },
     {
-      "id": "13",
+      "id": 13,
       "name": "Apple MacBook Pro 14\" M3 Pro",
       "brand": "Apple",
       "categoryId": 5,
@@ -486,7 +486,7 @@
       "createdAt": "2024-01-30T07:00:00.000Z"
     },
     {
-      "id": "14",
+      "id": 14,
       "name": "ASUS ProArt StudioBook 16 OLED",
       "brand": "ASUS",
       "categoryId": 5,
@@ -518,7 +518,7 @@
       "createdAt": "2024-03-15T07:00:00.000Z"
     },
     {
-      "id": "15",
+      "id": 15,
       "name": "Razer Blade 15 2024",
       "brand": "Razer",
       "categoryId": 1,
@@ -551,7 +551,7 @@
       "createdAt": "2024-03-20T07:00:00.000Z"
     },
     {
-      "id": "16",
+      "id": 16,
       "name": "Microsoft Surface Laptop 6",
       "brand": "Microsoft",
       "categoryId": 2,
@@ -585,7 +585,7 @@
   ],
   "reviews": [
     {
-      "id": "1",
+      "id": 1,
       "productId": 1,
       "userId": 2,
       "userName": "Nguyễn Văn An",
@@ -595,7 +595,7 @@
       "createdAt": "2024-02-01T10:30:00.000Z"
     },
     {
-      "id": "2",
+      "id": 2,
       "productId": 1,
       "userId": 3,
       "userName": "Trần Thị Bình",
@@ -605,7 +605,7 @@
       "createdAt": "2024-02-10T14:20:00.000Z"
     },
     {
-      "id": "3",
+      "id": 3,
       "productId": 8,
       "userId": 2,
       "userName": "Nguyễn Văn An",
@@ -615,7 +615,7 @@
       "createdAt": "2024-03-05T09:00:00.000Z"
     },
     {
-      "id": "4",
+      "id": 4,
       "productId": 13,
       "userId": 3,
       "userName": "Trần Thị Bình",
@@ -625,7 +625,7 @@
       "createdAt": "2024-03-10T16:45:00.000Z"
     },
     {
-      "id": "5",
+      "id": 5,
       "productId": 10,
       "userId": 2,
       "userName": "Nguyễn Văn An",
@@ -635,7 +635,7 @@
       "createdAt": "2024-02-20T11:15:00.000Z"
     },
     {
-      "id": "6",
+      "id": 6,
       "productId": 5,
       "userId": 3,
       "userName": "Trần Thị Bình",
@@ -645,7 +645,7 @@
       "createdAt": "2024-03-01T08:30:00.000Z"
     },
     {
-      "id": "7",
+      "id": 7,
       "productId": 7,
       "userId": 2,
       "userName": "Nguyễn Văn An",
@@ -655,7 +655,7 @@
       "createdAt": "2024-02-28T13:00:00.000Z"
     },
     {
-      "id": "8",
+      "id": 8,
       "productId": 3,
       "userId": 3,
       "userName": "Trần Thị Bình",
@@ -667,7 +667,7 @@
   ],
   "orders": [
     {
-      "id": "1",
+      "id": 1,
       "userId": 2,
       "items": [
         {
@@ -687,7 +687,7 @@
       "createdAt": "2024-02-15T09:00:00.000Z"
     },
     {
-      "id": "2",
+      "id": 2,
       "userId": 2,
       "items": [
         {
@@ -699,7 +699,7 @@
         }
       ],
       "total": 12990000,
-      "status": "Cancelled",
+      "status": "Pending",
       "address": "456 Lê Lợi, Quận 3, TP.HCM",
       "phone": "0912345678",
       "paymentMethod": "COD",
@@ -707,7 +707,7 @@
       "createdAt": "2024-03-18T14:30:00.000Z"
     },
     {
-      "id": "3",
+      "id": 3,
       "userId": 3,
       "items": [
         {
@@ -725,91 +725,6 @@
       "paymentMethod": "COD",
       "note": "Giao giờ hành chính",
       "createdAt": "2024-03-20T10:00:00.000Z"
-    },
-    {
-      "userId": 2,
-      "items": [
-        {
-          "productId": "2",
-          "name": "MSI Raider GE78 HX",
-          "price": 48990000,
-          "quantity": 1,
-          "image": "https://images.unsplash.com/photo-1593640495253-23196b27a87f?w=700&q=80"
-        }
-      ],
-      "total": 48990000,
-      "status": "Delivered",
-      "address": "456 Lê Lợi, Quận 3, TP.HCM",
-      "phone": "0912345678",
-      "name": "Nguyễn Văn An",
-      "paymentMethod": "COD",
-      "note": "",
-      "createdAt": "2026-03-24T07:43:08.541Z",
-      "id": "ecK9vj4_LUc"
-    },
-    {
-      "userId": 2,
-      "items": [
-        {
-          "productId": "1",
-          "name": "ASUS ROG Strix G15 2024",
-          "price": 32990000,
-          "quantity": 1,
-          "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=700&q=80"
-        }
-      ],
-      "total": 32990000,
-      "status": "Processing",
-      "address": "456 Lê Lợi, Quận 3, TP.HCM",
-      "phone": "0912345678",
-      "name": "Nguyễn Văn An",
-      "paymentMethod": "COD",
-      "note": "",
-      "createdAt": "2026-03-24T07:52:24.144Z",
-      "id": "yu4w75YbuZk"
-    },
-    {
-      "userId": 2,
-      "items": [
-        {
-          "productId": "1",
-          "name": "ASUS ROG Strix G15 2024",
-          "price": 32990000,
-          "quantity": 1,
-          "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=700&q=80"
-        }
-      ],
-      "total": 32990000,
-      "status": "Processing",
-      "address": "456 Lê Lợi, Quận 3, TP.HCM",
-      "phone": "0912345678",
-      "name": "Nguyễn Văn An",
-      "paymentMethod": "COD",
-      "note": "",
-      "createdAt": "2026-03-24T07:52:39.514Z",
-      "id": "WpnE_SmNdNo"
-    },
-    {
-      "userId": 2,
-      "items": [
-        {
-          "productId": "2",
-          "name": "MSI Raider GE78 HX",
-          "price": 48990000,
-          "quantity": 1,
-          "image": "https://images.unsplash.com/photo-1593640495253-23196b27a87f?w=700&q=80"
-        }
-      ],
-      "total": 48990000,
-      "status": "Processing",
-      "address": "456 Lê Lợi, Quận 3, TP.HCM",
-      "phone": "0912345678",
-      "name": "Nguyễn Văn An",
-      "paymentMethod": "COD",
-      "note": "",
-      "createdAt": "2026-03-24T07:52:49.908Z",
-      "id": "TGeVGH8WKJc"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }

@@ -1,0 +1,730 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Admin LaptopZone",
+            "email": "admin@laptopzone.vn",
+            "password": "admin123",
+            "role": "admin",
+            "phone": "0901234567",
+            "address": "123 Nguyễn Huệ, Quận 1, TP.HCM",
+            "avatar": ""
+        },
+        {
+            "id": 2,
+            "name": "Nguyễn Văn An",
+            "email": "user@laptopzone.vn",
+            "password": "user123",
+            "role": "user",
+            "phone": "0912345678",
+            "address": "456 Lê Lợi, Quận 3, TP.HCM",
+            "avatar": ""
+        },
+        {
+            "id": 3,
+            "name": "Trần Thị Bình",
+            "email": "binh@example.com",
+            "password": "binh123",
+            "role": "user",
+            "phone": "0923456789",
+            "address": "789 Trần Hưng Đạo, Quận 5, TP.HCM",
+            "avatar": ""
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Gaming",
+            "slug": "gaming",
+            "description": "Laptop gaming hiệu năng cao, trang bị GPU rời mạnh mẽ cho trải nghiệm chơi game tuyệt đỉnh",
+            "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&q=80"
+        },
+        {
+            "id": 2,
+            "name": "Văn phòng",
+            "slug": "van-phong",
+            "description": "Laptop văn phòng chuyên nghiệp, bàn phím tốt, pin trâu, phù hợp làm việc hàng ngày",
+            "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&q=80"
+        },
+        {
+            "id": 3,
+            "name": "Siêu mỏng",
+            "slug": "sieu-mong",
+            "description": "Laptop siêu mỏng nhẹ, thiết kế sang trọng, di chuyển dễ dàng",
+            "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80"
+        },
+        {
+            "id": 4,
+            "name": "Sinh viên",
+            "slug": "sinh-vien",
+            "description": "Laptop giá tốt, cấu hình ổn định dành cho sinh viên học tập",
+            "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&q=80"
+        },
+        {
+            "id": 5,
+            "name": "Đồ họa",
+            "slug": "do-hoa",
+            "description": "Laptop workstation với màn hình chất lượng cao và GPU mạnh cho đồ họa, dựng phim",
+            "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "ASUS ROG Strix G15 2024",
+            "brand": "ASUS",
+            "categoryId": 1,
+            "price": 32990000,
+            "oldPrice": 35990000,
+            "description": "Laptop gaming mạnh mẽ với chip AMD Ryzen 9, tản nhiệt tốt, màn hình 165Hz. Thiết kế ROG đặc trưng với đèn LED RGB Aura Sync. Phù hợp cho gaming chuyên nghiệp và các tác vụ nặng.",
+            "specs": {
+                "cpu": "AMD Ryzen 9 7945HX",
+                "ram": "16GB DDR5 4800MHz",
+                "storage": "1TB NVMe PCIe 4.0 SSD",
+                "display": "15.6\" FHD IPS 165Hz",
+                "gpu": "NVIDIA GeForce RTX 4070 8GB",
+                "battery": "90Wh, ~6 giờ",
+                "weight": "2.3 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=700&q=80",
+                "https://images.unsplash.com/photo-1593640495253-23196b27a87f?w=700&q=80"
+            ],
+            "stock": 15,
+            "rating": 4.7,
+            "reviewCount": 24,
+            "visible": true,
+            "featured": true,
+            "tags": [
+                "bestseller",
+                "hot"
+            ],
+            "createdAt": "2024-01-15T07:00:00.000Z"
+        },
+        {
+            "id": 2,
+            "name": "MSI Raider GE78 HX",
+            "brand": "MSI",
+            "categoryId": 1,
+            "price": 48990000,
+            "oldPrice": 52990000,
+            "description": "Siêu phẩm gaming với Intel Core i9 thế hệ 14, RTX 4090. Màn hình QHD 240Hz mượt mà, hệ thống tản nhiệt Cooler Boost Trinity+. Dành cho game thủ đỉnh cao.",
+            "specs": {
+                "cpu": "Intel Core i9-14900HX",
+                "ram": "32GB DDR5 5600MHz",
+                "storage": "2TB NVMe PCIe 4.0 SSD",
+                "display": "17.3\" QHD 240Hz MiniLED",
+                "gpu": "NVIDIA GeForce RTX 4090 16GB",
+                "battery": "99.9Wh, ~5 giờ",
+                "weight": "2.9 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1593640495253-23196b27a87f?w=700&q=80",
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=700&q=80"
+            ],
+            "stock": 8,
+            "rating": 4.8,
+            "reviewCount": 12,
+            "visible": true,
+            "featured": true,
+            "tags": [
+                "new",
+                "hot"
+            ],
+            "createdAt": "2024-02-10T07:00:00.000Z"
+        },
+        {
+            "id": 3,
+            "name": "Lenovo Legion 5 Pro Gen 9",
+            "brand": "Lenovo",
+            "categoryId": 1,
+            "price": 27990000,
+            "oldPrice": 29990000,
+            "description": "Laptop gaming tầm trung xuất sắc. Màn hình 2K 165Hz cực đẹp, hiệu năng cao với AMD Ryzen 7. Thiết kế chuyên nghiệp, bàn phím backlit RGB.",
+            "specs": {
+                "cpu": "AMD Ryzen 7 7745HX",
+                "ram": "16GB DDR5",
+                "storage": "512GB NVMe SSD",
+                "display": "16\" WQXGA 2560x1600 165Hz",
+                "gpu": "NVIDIA GeForce RTX 4060 8GB",
+                "battery": "80Wh, ~7 giờ",
+                "weight": "2.4 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=700&q=80",
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=700&q=80"
+            ],
+            "stock": 20,
+            "rating": 4.6,
+            "reviewCount": 38,
+            "visible": true,
+            "featured": false,
+            "tags": [
+                "bestseller"
+            ],
+            "createdAt": "2024-01-20T07:00:00.000Z"
+        },
+        {
+            "id": 4,
+            "name": "HP Omen 16 2024",
+            "brand": "HP",
+            "categoryId": 1,
+            "price": 29990000,
+            "oldPrice": null,
+            "description": "Gaming laptop HP với thiết kế hầm hố, hiệu năng ổn định. Màn hình 144Hz, tản nhiệt tốt với OMEN Tempest Cooling. Phù hợp gaming và làm việc.",
+            "specs": {
+                "cpu": "AMD Ryzen 7 7700HX",
+                "ram": "16GB DDR5",
+                "storage": "1TB NVMe SSD",
+                "display": "16.1\" FHD 144Hz",
+                "gpu": "NVIDIA GeForce RTX 4070 8GB",
+                "battery": "83Wh, ~6 giờ",
+                "weight": "2.5 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=700&q=80",
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=700&q=80"
+            ],
+            "stock": 10,
+            "rating": 4.4,
+            "reviewCount": 19,
+            "visible": true,
+            "featured": false,
+            "tags": [],
+            "createdAt": "2024-03-01T07:00:00.000Z"
+        },
+        {
+            "id": 5,
+            "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+            "brand": "Lenovo",
+            "categoryId": 2,
+            "price": 38990000,
+            "oldPrice": 42000000,
+            "description": "Laptop doanh nhân đẳng cấp thế giới. Nhẹ chỉ 1.12kg, pin 57Wh bền lâu, bàn phím nổi tiếng tốt nhất phân khúc. Bảo mật vân tay + IR camera. Chuẩn MIL-SPEC chống va đập.",
+            "specs": {
+                "cpu": "Intel Core Ultra 7 165H",
+                "ram": "32GB LPDDR5X",
+                "storage": "1TB NVMe PCIe 4.0 SSD",
+                "display": "14\" WUXGA IPS Anti-Glare",
+                "gpu": "Intel Arc Graphics",
+                "battery": "57Wh, ~12 giờ",
+                "weight": "1.12 kg",
+                "os": "Windows 11 Pro"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=700&q=80",
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=700&q=80"
+            ],
+            "stock": 12,
+            "rating": 4.9,
+            "reviewCount": 31,
+            "visible": true,
+            "featured": true,
+            "tags": [
+                "bestseller"
+            ],
+            "createdAt": "2024-02-01T07:00:00.000Z"
+        },
+        {
+            "id": 6,
+            "name": "HP EliteBook 840 G11",
+            "brand": "HP",
+            "categoryId": 2,
+            "price": 33990000,
+            "oldPrice": null,
+            "description": "Laptop doanh nhân HP chuẩn bảo mật cấp doanh nghiệp. Màn hình chống nhìn trộm, CPU Intel Core Ultra mạnh mẽ, bảo mật HP Wolf Security.",
+            "specs": {
+                "cpu": "Intel Core Ultra 7 165U",
+                "ram": "16GB LPDDR5",
+                "storage": "512GB NVMe SSD",
+                "display": "14\" WUXGA IPS Sure View",
+                "gpu": "Intel Graphics",
+                "battery": "51Wh, ~11 giờ",
+                "weight": "1.39 kg",
+                "os": "Windows 11 Pro"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=700&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=700&q=80"
+            ],
+            "stock": 9,
+            "rating": 4.5,
+            "reviewCount": 14,
+            "visible": true,
+            "featured": false,
+            "tags": [],
+            "createdAt": "2024-03-10T07:00:00.000Z"
+        },
+        {
+            "id": 7,
+            "name": "Dell XPS 15 9530",
+            "brand": "Dell",
+            "categoryId": 3,
+            "price": 42990000,
+            "oldPrice": 46000000,
+            "description": "Kiệt tác trong phân khúc siêu mỏng. Màn hình OLED 3.5K sắc nét tuyệt vời, viền mỏng InfinityEdge. Hiệu năng mạnh với Core i7/i9 kết hợp RTX GPU.",
+            "specs": {
+                "cpu": "Intel Core i7-13700H",
+                "ram": "16GB DDR5",
+                "storage": "1TB NVMe SSD",
+                "display": "15.6\" OLED 3456x2160 60Hz",
+                "gpu": "NVIDIA GeForce RTX 4060 8GB",
+                "battery": "86Wh, ~10 giờ",
+                "weight": "1.86 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=700&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=700&q=80"
+            ],
+            "stock": 7,
+            "rating": 4.7,
+            "reviewCount": 22,
+            "visible": true,
+            "featured": true,
+            "tags": [
+                "new",
+                "sale"
+            ],
+            "createdAt": "2024-01-25T07:00:00.000Z"
+        },
+        {
+            "id": 8,
+            "name": "Apple MacBook Air M3 15\"",
+            "brand": "Apple",
+            "categoryId": 3,
+            "price": 36990000,
+            "oldPrice": null,
+            "description": "MacBook Air màn hình 15 inch đầu tiên với chip M3. Không quạt tản nhiệt, hiệu suất bền bỉ, thời lượng pin 18 giờ. Màn hình Liquid Retina tuyệt đẹp.",
+            "specs": {
+                "cpu": "Apple M3 (8-core CPU)",
+                "ram": "8GB Unified Memory",
+                "storage": "256GB SSD",
+                "display": "15.3\" Liquid Retina 2880x1864",
+                "gpu": "Apple M3 (10-core GPU)",
+                "battery": "66.5Wh, ~18 giờ",
+                "weight": "1.51 kg",
+                "os": "macOS Sonoma"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=700&q=80",
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=700&q=80"
+            ],
+            "stock": 18,
+            "rating": 4.8,
+            "reviewCount": 45,
+            "visible": true,
+            "featured": true,
+            "tags": [
+                "bestseller",
+                "hot"
+            ],
+            "createdAt": "2024-02-20T07:00:00.000Z"
+        },
+        {
+            "id": 9,
+            "name": "LG Gram 16 2024",
+            "brand": "LG",
+            "categoryId": 3,
+            "price": 28990000,
+            "oldPrice": 31000000,
+            "description": "Laptop siêu nhẹ chỉ 1.19kg với màn hình 16 inch lớn. Chuẩn MIL-SPEC 7 lần chứng nhận, pin 80Wh cực bền. Lý tưởng cho người hay di chuyển.",
+            "specs": {
+                "cpu": "Intel Core Ultra 7 155H",
+                "ram": "16GB LPDDR5",
+                "storage": "1TB NVMe SSD",
+                "display": "16\" WQXGA 2560x1600 IPS",
+                "gpu": "Intel Arc Graphics",
+                "battery": "80Wh, ~16 giờ",
+                "weight": "1.19 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=700&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=700&q=80"
+            ],
+            "stock": 14,
+            "rating": 4.6,
+            "reviewCount": 17,
+            "visible": true,
+            "featured": false,
+            "tags": [
+                "sale"
+            ],
+            "createdAt": "2024-03-05T07:00:00.000Z"
+        },
+        {
+            "id": 10,
+            "name": "Acer Aspire 5 A515-58M",
+            "brand": "Acer",
+            "categoryId": 4,
+            "price": 12990000,
+            "oldPrice": 14990000,
+            "description": "Laptop sinh viên tầm giá tốt nhất. Màn hình IPS Full HD sắc nét, CPU Intel i5 thế hệ 13 mạnh mẽ, RAM 8GB đủ dùng cho học tập và giải trí nhẹ.",
+            "specs": {
+                "cpu": "Intel Core i5-1335U",
+                "ram": "8GB DDR4",
+                "storage": "512GB NVMe SSD",
+                "display": "15.6\" FHD IPS 60Hz",
+                "gpu": "Intel Iris Xe Graphics",
+                "battery": "56Wh, ~8 giờ",
+                "weight": "1.8 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=700&q=80",
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=700&q=80"
+            ],
+            "stock": 30,
+            "rating": 4.3,
+            "reviewCount": 52,
+            "visible": true,
+            "featured": false,
+            "tags": [
+                "bestseller",
+                "sale"
+            ],
+            "createdAt": "2024-01-10T07:00:00.000Z"
+        },
+        {
+            "id": 11,
+            "name": "ASUS VivoBook 15 X1504",
+            "brand": "ASUS",
+            "categoryId": 4,
+            "price": 10990000,
+            "oldPrice": 12490000,
+            "description": "Laptop sinh viên cực phẩm giá rẻ. Thiết kế nhỏ gọn, màu sắc trẻ trung, cấu hình đủ cho học tập văn phòng. Nhiều màu để lựa chọn.",
+            "specs": {
+                "cpu": "Intel Core i3-1315U",
+                "ram": "8GB DDR4",
+                "storage": "256GB NVMe SSD",
+                "display": "15.6\" FHD IPS 60Hz",
+                "gpu": "Intel UHD Graphics",
+                "battery": "42Wh, ~7 giờ",
+                "weight": "1.7 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1467238307011-2c31d184b7c5?w=700&q=80",
+                "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=700&q=80"
+            ],
+            "stock": 25,
+            "rating": 4.2,
+            "reviewCount": 63,
+            "visible": true,
+            "featured": false,
+            "tags": [
+                "sale"
+            ],
+            "createdAt": "2024-01-05T07:00:00.000Z"
+        },
+        {
+            "id": 12,
+            "name": "Dell Inspiron 15 3535",
+            "brand": "Dell",
+            "categoryId": 4,
+            "price": 11990000,
+            "oldPrice": null,
+            "description": "Laptop Dell đáng tin cậy cho sinh viên. Cứng cáp, bền bỉ, dịch vụ hậu mãi tốt. Màn hình Full HD, hiệu năng ổn định cho học tập.",
+            "specs": {
+                "cpu": "AMD Ryzen 5 7530U",
+                "ram": "8GB DDR4",
+                "storage": "512GB SSD",
+                "display": "15.6\" FHD WVA 60Hz",
+                "gpu": "AMD Radeon Graphics",
+                "battery": "54Wh, ~8 giờ",
+                "weight": "1.79 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=700&q=80",
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=700&q=80"
+            ],
+            "stock": 22,
+            "rating": 4.1,
+            "reviewCount": 41,
+            "visible": true,
+            "featured": false,
+            "tags": [],
+            "createdAt": "2024-02-15T07:00:00.000Z"
+        },
+        {
+            "id": 13,
+            "name": "Apple MacBook Pro 14\" M3 Pro",
+            "brand": "Apple",
+            "categoryId": 5,
+            "price": 56990000,
+            "oldPrice": 59990000,
+            "description": "Đỉnh cao hiệu suất sáng tạo với chip M3 Pro. Màn hình Liquid Retina XDR ProMotion 120Hz cực đỉnh. Lý tưởng cho video editor, designer, developer.",
+            "specs": {
+                "cpu": "Apple M3 Pro (11-core CPU)",
+                "ram": "18GB Unified Memory",
+                "storage": "512GB SSD",
+                "display": "14.2\" Liquid Retina XDR 3024x1964 120Hz",
+                "gpu": "Apple M3 Pro (14-core GPU)",
+                "battery": "70Wh, ~18 giờ",
+                "weight": "1.61 kg",
+                "os": "macOS Sonoma"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=700&q=80",
+                "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=700&q=80"
+            ],
+            "stock": 10,
+            "rating": 4.9,
+            "reviewCount": 56,
+            "visible": true,
+            "featured": true,
+            "tags": [
+                "bestseller",
+                "hot"
+            ],
+            "createdAt": "2024-01-30T07:00:00.000Z"
+        },
+        {
+            "id": 14,
+            "name": "ASUS ProArt StudioBook 16 OLED",
+            "brand": "ASUS",
+            "categoryId": 5,
+            "price": 52990000,
+            "oldPrice": 55000000,
+            "description": "Workstation laptop chuyên nghiệp cho creative. Màn hình OLED 4K HDR 120Hz, hiệu chỉnh màu sắc chuyên nghiệp ASUS OLED calibration. RTX 4070 đủ mạnh cho render 3D.",
+            "specs": {
+                "cpu": "Intel Core i9-13980HX",
+                "ram": "32GB DDR5",
+                "storage": "2TB NVMe SSD",
+                "display": "16\" 4K OLED 3840x2400 120Hz",
+                "gpu": "NVIDIA GeForce RTX 4070 8GB",
+                "battery": "96Wh, ~8 giờ",
+                "weight": "2.4 kg",
+                "os": "Windows 11 Pro"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=700&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=700&q=80"
+            ],
+            "stock": 5,
+            "rating": 4.8,
+            "reviewCount": 18,
+            "visible": true,
+            "featured": true,
+            "tags": [
+                "new"
+            ],
+            "createdAt": "2024-03-15T07:00:00.000Z"
+        },
+        {
+            "id": 15,
+            "name": "Razer Blade 15 2024",
+            "brand": "Razer",
+            "categoryId": 1,
+            "price": 55990000,
+            "oldPrice": null,
+            "description": "Premium gaming laptop với thiết kế nhôm nguyên khối CNC tinh tế. Hiệu năng đỉnh cao RTX 4080, màn hình QHD 240Hz. Biểu tượng của gaming laptop cao cấp.",
+            "specs": {
+                "cpu": "Intel Core i9-14900HX",
+                "ram": "32GB DDR5",
+                "storage": "1TB NVMe SSD",
+                "display": "15.6\" QHD 2560x1440 240Hz",
+                "gpu": "NVIDIA GeForce RTX 4080 12GB",
+                "battery": "80Wh, ~6 giờ",
+                "weight": "2.01 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1602721228966-dc2b8e3eca0a?w=700&q=80",
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=700&q=80"
+            ],
+            "stock": 6,
+            "rating": 4.9,
+            "reviewCount": 29,
+            "visible": true,
+            "featured": false,
+            "tags": [
+                "hot",
+                "new"
+            ],
+            "createdAt": "2024-03-20T07:00:00.000Z"
+        },
+        {
+            "id": 16,
+            "name": "Microsoft Surface Laptop 6",
+            "brand": "Microsoft",
+            "categoryId": 2,
+            "price": 31990000,
+            "oldPrice": 34990000,
+            "description": "Laptop văn phòng sang trọng của Microsoft. Màn hình cảm ứng PixelSense 120Hz, thiết kế alcantara đẹp. Tích hợp hoàn hảo với hệ sinh thái Microsoft 365.",
+            "specs": {
+                "cpu": "Intel Core Ultra 7 165H",
+                "ram": "16GB LPDDR5",
+                "storage": "512GB SSD",
+                "display": "13.5\" PixelSense 2256x1504 120Hz",
+                "gpu": "Intel Arc Graphics",
+                "battery": "47Wh, ~13 giờ",
+                "weight": "1.34 kg",
+                "os": "Windows 11 Home"
+            },
+            "images": [
+                "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=700&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=700&q=80"
+            ],
+            "stock": 11,
+            "rating": 4.5,
+            "reviewCount": 21,
+            "visible": true,
+            "featured": false,
+            "tags": [
+                "sale"
+            ],
+            "createdAt": "2024-02-25T07:00:00.000Z"
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "productId": 1,
+            "userId": 2,
+            "userName": "Nguyễn Văn An",
+            "rating": 5,
+            "comment": "Máy quá ngon! Chơi game mượt mà, tản nhiệt tốt. Màn hình 165Hz cực đỉnh. Giao hàng nhanh, đóng gói cẩn thận.",
+            "visible": true,
+            "createdAt": "2024-02-01T10:30:00.000Z"
+        },
+        {
+            "id": 2,
+            "productId": 1,
+            "userId": 3,
+            "userName": "Trần Thị Bình",
+            "rating": 4,
+            "comment": "Máy đẹp, hiệu năng tốt. Hơi nặng một chút nhưng chấp nhận được với gaming laptop. Pin dùng được khoảng 5-6 tiếng normal.",
+            "visible": true,
+            "createdAt": "2024-02-10T14:20:00.000Z"
+        },
+        {
+            "id": 3,
+            "productId": 8,
+            "userId": 2,
+            "userName": "Nguyễn Văn An",
+            "rating": 5,
+            "comment": "MacBook Air M3 quá hoàn hảo! Pin 18 giờ thật sự ấn tượng, máy mỏng nhẹ lại hiệu năng cực cao. Đắt nhưng xứng đáng!",
+            "visible": true,
+            "createdAt": "2024-03-05T09:00:00.000Z"
+        },
+        {
+            "id": 4,
+            "productId": 13,
+            "userId": 3,
+            "userName": "Trần Thị Bình",
+            "rating": 5,
+            "comment": "MacBook Pro M3 Pro xuất sắc! Dùng để render video 4K, edit ảnh RAW cực mượt. Chip M3 Pro quá mạnh, pin cũng rất tốt.",
+            "visible": true,
+            "createdAt": "2024-03-10T16:45:00.000Z"
+        },
+        {
+            "id": 5,
+            "productId": 10,
+            "userId": 2,
+            "userName": "Nguyễn Văn An",
+            "rating": 4,
+            "comment": "Acer Aspire 5 xứng đáng với tầm giá. Sinh viên như mình dùng rất ổn, làm bài, xem phim, code đều ok. Giá hợp lý.",
+            "visible": true,
+            "createdAt": "2024-02-20T11:15:00.000Z"
+        },
+        {
+            "id": 6,
+            "productId": 5,
+            "userId": 3,
+            "userName": "Trần Thị Bình",
+            "rating": 5,
+            "comment": "ThinkPad X1 Carbon đúng là doanh nhân thật! Nhẹ như lông vũ, bàn phím gõ sướng không thua gì máy bàn, pin dùng cả ngày.",
+            "visible": true,
+            "createdAt": "2024-03-01T08:30:00.000Z"
+        },
+        {
+            "id": 7,
+            "productId": 7,
+            "userId": 2,
+            "userName": "Nguyễn Văn An",
+            "rating": 5,
+            "comment": "Dell XPS 15 màn hình OLED đẹp không thể tả! Mỏng nhẹ, hiệu năng tốt. Có vài nhược điểm nhỏ về webcam nhưng tổng thể rất tốt.",
+            "visible": true,
+            "createdAt": "2024-02-28T13:00:00.000Z"
+        },
+        {
+            "id": 8,
+            "productId": 3,
+            "userId": 3,
+            "userName": "Trần Thị Bình",
+            "rating": 4,
+            "comment": "Legion 5 Pro tầm giá này quá tốt! Màn 2K đẹp, RTX 4060 đủ chơi mọi game AAA. Hơi nóng khi load nặng nhưng ổn.",
+            "visible": false,
+            "createdAt": "2024-03-12T17:30:00.000Z"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "userId": 2,
+            "items": [
+                {
+                    "productId": 8,
+                    "name": "Apple MacBook Air M3 15\"",
+                    "price": 36990000,
+                    "quantity": 1,
+                    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=700&q=80"
+                }
+            ],
+            "total": 36990000,
+            "status": "Delivered",
+            "address": "456 Lê Lợi, Quận 3, TP.HCM",
+            "phone": "0912345678",
+            "paymentMethod": "COD",
+            "note": "",
+            "createdAt": "2024-02-15T09:00:00.000Z"
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "items": [
+                {
+                    "productId": 10,
+                    "name": "Acer Aspire 5 A515-58M",
+                    "price": 12990000,
+                    "quantity": 1,
+                    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=700&q=80"
+                }
+            ],
+            "total": 12990000,
+            "status": "Pending",
+            "address": "456 Lê Lợi, Quận 3, TP.HCM",
+            "phone": "0912345678",
+            "paymentMethod": "COD",
+            "note": "",
+            "createdAt": "2024-03-18T14:30:00.000Z"
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "items": [
+                {
+                    "productId": 13,
+                    "name": "Apple MacBook Pro 14\" M3 Pro",
+                    "price": 56990000,
+                    "quantity": 1,
+                    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=700&q=80"
+                }
+            ],
+            "total": 56990000,
+            "status": "Shipping",
+            "address": "789 Trần Hưng Đạo, Quận 5, TP.HCM",
+            "phone": "0923456789",
+            "paymentMethod": "COD",
+            "note": "Giao giờ hành chính",
+            "createdAt": "2024-03-20T10:00:00.000Z"
+        }
+    ]
+}

@@ -29,7 +29,7 @@ export const CartProvider = ({ children }) => {
             return [
                 ...prev,
                 {
-                    productId: product.id,
+                    productId: Number(product.id),
                     name: product.name,
                     price: product.price,
                     image: product.images?.[0] || '',

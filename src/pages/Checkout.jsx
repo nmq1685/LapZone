@@ -43,9 +43,9 @@ const Checkout = () => {
         setSubmitting(true);
         try {
             await createOrder({
-                userId: user.id,
+                userId: Number(user.id),
                 items: cartItems.map(item => ({
-                    productId: item.productId,
+                    productId: Number(item.productId),
                     name: item.name,
                     price: item.price,
                     quantity: item.quantity,

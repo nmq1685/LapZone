@@ -30,11 +30,11 @@ import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
 
 const MainLayout = ({ children }) => (
-  <>
+  <div className="site-wrapper">
     <Header />
-    <main>{children}</main>
+    <main className="site-main">{children}</main>
     <Footer />
-  </>
+  </div>
 );
 
 function App() {
